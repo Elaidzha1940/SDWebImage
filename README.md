@@ -1,4 +1,4 @@
-SDWebImage in SwiftUI | Swift Packages.
+SDWebImage in SwiftUI | Swift Package.
 ==========
 
 SDWebImageSwiftUI
