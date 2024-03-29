@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E4D11BB42BB5A65300C96AC9 /* SDWebImageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D11BB32BB5A65300C96AC9 /* SDWebImageApp.swift */; };
+		E48135752BB644C100779111 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = E48135742BB644C100779111 /* SDWebImageSwiftUI */; };
+		E4D11BB42BB5A65300C96AC9 /* SDWebImagePApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D11BB32BB5A65300C96AC9 /* SDWebImagePApp.swift */; };
 		E4D11BB62BB5A65300C96AC9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D11BB52BB5A65300C96AC9 /* ContentView.swift */; };
 		E4D11BB82BB5A65300C96AC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4D11BB72BB5A65300C96AC9 /* Assets.xcassets */; };
 		E4D11BBB2BB5A65300C96AC9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4D11BBA2BB5A65300C96AC9 /* Preview Assets.xcassets */; };
-		E4D11BC32BB5A73000C96AC9 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = E4D11BC22BB5A73000C96AC9 /* SDWebImageSwiftUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E4D11BB02BB5A65300C96AC9 /* SDWebImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDWebImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E4D11BB32BB5A65300C96AC9 /* SDWebImageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDWebImageApp.swift; sourceTree = "<group>"; };
+		E4D11BB02BB5A65300C96AC9 /* SDWebImageP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDWebImageP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4D11BB32BB5A65300C96AC9 /* SDWebImagePApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDWebImagePApp.swift; sourceTree = "<group>"; };
 		E4D11BB52BB5A65300C96AC9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E4D11BB72BB5A65300C96AC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4D11BBA2BB5A65300C96AC9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -27,7 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4D11BC32BB5A73000C96AC9 /* SDWebImageSwiftUI in Frameworks */,
+				E48135752BB644C100779111 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,7 +45,7 @@
 		E4D11BB12BB5A65300C96AC9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E4D11BB02BB5A65300C96AC9 /* SDWebImage.app */,
+				E4D11BB02BB5A65300C96AC9 /* SDWebImageP.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -53,7 +53,7 @@
 		E4D11BB22BB5A65300C96AC9 /* SDWebImage */ = {
 			isa = PBXGroup;
 			children = (
-				E4D11BB32BB5A65300C96AC9 /* SDWebImageApp.swift */,
+				E4D11BB32BB5A65300C96AC9 /* SDWebImagePApp.swift */,
 				E4D11BB52BB5A65300C96AC9 /* ContentView.swift */,
 				E4D11BB72BB5A65300C96AC9 /* Assets.xcassets */,
 				E4D11BB92BB5A65300C96AC9 /* Preview Content */,
@@ -72,9 +72,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E4D11BAF2BB5A65300C96AC9 /* SDWebImage */ = {
+		E4D11BAF2BB5A65300C96AC9 /* SDWebImageP */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E4D11BBE2BB5A65300C96AC9 /* Build configuration list for PBXNativeTarget "SDWebImage" */;
+			buildConfigurationList = E4D11BBE2BB5A65300C96AC9 /* Build configuration list for PBXNativeTarget "SDWebImageP" */;
 			buildPhases = (
 				E4D11BAC2BB5A65300C96AC9 /* Sources */,
 				E4D11BAD2BB5A65300C96AC9 /* Frameworks */,
@@ -84,12 +84,12 @@
 			);
 			dependencies = (
 			);
-			name = SDWebImage;
+			name = SDWebImageP;
 			packageProductDependencies = (
-				E4D11BC22BB5A73000C96AC9 /* SDWebImageSwiftUI */,
+				E48135742BB644C100779111 /* SDWebImageSwiftUI */,
 			);
 			productName = SDWebImage;
-			productReference = E4D11BB02BB5A65300C96AC9 /* SDWebImage.app */;
+			productReference = E4D11BB02BB5A65300C96AC9 /* SDWebImageP.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -107,7 +107,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E4D11BAB2BB5A65300C96AC9 /* Build configuration list for PBXProject "SDWebImage" */;
+			buildConfigurationList = E4D11BAB2BB5A65300C96AC9 /* Build configuration list for PBXProject "SDWebImageP" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -117,13 +117,13 @@
 			);
 			mainGroup = E4D11BA72BB5A65300C96AC9;
 			packageReferences = (
-				E4D11BC12BB5A73000C96AC9 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				E48135732BB644C100779111 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
 			);
 			productRefGroup = E4D11BB12BB5A65300C96AC9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E4D11BAF2BB5A65300C96AC9 /* SDWebImage */,
+				E4D11BAF2BB5A65300C96AC9 /* SDWebImageP */,
 			);
 		};
 /* End PBXProject section */
@@ -146,7 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4D11BB62BB5A65300C96AC9 /* ContentView.swift in Sources */,
-				E4D11BB42BB5A65300C96AC9 /* SDWebImageApp.swift in Sources */,
+				E4D11BB42BB5A65300C96AC9 /* SDWebImagePApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,7 +205,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -262,7 +262,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -333,7 +333,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E4D11BAB2BB5A65300C96AC9 /* Build configuration list for PBXProject "SDWebImage" */ = {
+		E4D11BAB2BB5A65300C96AC9 /* Build configuration list for PBXProject "SDWebImageP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E4D11BBC2BB5A65300C96AC9 /* Debug */,
@@ -342,7 +342,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E4D11BBE2BB5A65300C96AC9 /* Build configuration list for PBXNativeTarget "SDWebImage" */ = {
+		E4D11BBE2BB5A65300C96AC9 /* Build configuration list for PBXNativeTarget "SDWebImageP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E4D11BBF2BB5A65300C96AC9 /* Debug */,
@@ -354,7 +354,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		E4D11BC12BB5A73000C96AC9 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+		E48135732BB644C100779111 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
 			requirement = {
@@ -365,9 +365,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		E4D11BC22BB5A73000C96AC9 /* SDWebImageSwiftUI */ = {
+		E48135742BB644C100779111 /* SDWebImageSwiftUI */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = E4D11BC12BB5A73000C96AC9 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			package = E48135732BB644C100779111 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
 			productName = SDWebImageSwiftUI;
 		};
 /* End XCSwiftPackageProductDependency section */

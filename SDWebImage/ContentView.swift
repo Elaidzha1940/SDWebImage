@@ -1,6 +1,6 @@
 //  /*
 //
-//  Project: SDWebImage
+//  Project: SDWebImageP
 //  File: ContentView.swift
 //  Created by: Elaidzha Shchukin
 //  Date: 28.03.2024
