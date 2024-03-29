@@ -57,9 +57,9 @@
 			children = (
 				E4D11BB32BB5A65300C96AC9 /* SDWebImagePApp.swift */,
 				E4D11BB52BB5A65300C96AC9 /* ContentView.swift */,
+				E48135762BB64A4300779111 /* SDWebImageLoader.swift */,
 				E4D11BB72BB5A65300C96AC9 /* Assets.xcassets */,
 				E4D11BB92BB5A65300C96AC9 /* Preview Content */,
-				E48135762BB64A4300779111 /* SDWebImageLoader.swift */,
 			);
 			path = SDWebImage;
 			sourceTree = "<group>";
