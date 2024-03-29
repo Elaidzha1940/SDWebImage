@@ -8,31 +8,16 @@
 //  */
 
 import SwiftUI
-import SDWebImageSwiftUI
 
 struct ContentView: View {
     var body: some View {
         VStack {
-            WebImage(url: URL(string: "https://picsum.photos/200/300?grayscaleh")) { image in
-                
-                image.resizable()
-                
-            } placeholder: {
-                Rectangle()
-                    .foregroundColor(.gray)
-                //                    .overlay(
-                //                        ProgressView()
-                //                    )
-            }
-            //            .onSuccess(perform: { image, data, cacheType in
-            //                //
-            //            }
-            //                .onFailure(perform: { error in
-            //                    //
-            //                }
-            .indicator(.activity)
-            .aspectRatio(contentMode: .fit)
+            ImageLoader(
+                url: "https://picsum.photos/200/300?grayscaleh",
+                contentMode: .fit)
+            .cornerRadius(15)
         }
+        .frame(width: 300, height: 400)
     }
 }
 

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E48135752BB644C100779111 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = E48135742BB644C100779111 /* SDWebImageSwiftUI */; };
+		E48135772BB64A4300779111 /* SDWebImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48135762BB64A4300779111 /* SDWebImageLoader.swift */; };
 		E4D11BB42BB5A65300C96AC9 /* SDWebImagePApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D11BB32BB5A65300C96AC9 /* SDWebImagePApp.swift */; };
 		E4D11BB62BB5A65300C96AC9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D11BB52BB5A65300C96AC9 /* ContentView.swift */; };
 		E4D11BB82BB5A65300C96AC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4D11BB72BB5A65300C96AC9 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E48135762BB64A4300779111 /* SDWebImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDWebImageLoader.swift; sourceTree = "<group>"; };
 		E4D11BB02BB5A65300C96AC9 /* SDWebImageP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDWebImageP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4D11BB32BB5A65300C96AC9 /* SDWebImagePApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDWebImagePApp.swift; sourceTree = "<group>"; };
 		E4D11BB52BB5A65300C96AC9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				E4D11BB52BB5A65300C96AC9 /* ContentView.swift */,
 				E4D11BB72BB5A65300C96AC9 /* Assets.xcassets */,
 				E4D11BB92BB5A65300C96AC9 /* Preview Content */,
+				E48135762BB64A4300779111 /* SDWebImageLoader.swift */,
 			);
 			path = SDWebImage;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E48135772BB64A4300779111 /* SDWebImageLoader.swift in Sources */,
 				E4D11BB62BB5A65300C96AC9 /* ContentView.swift in Sources */,
 				E4D11BB42BB5A65300C96AC9 /* SDWebImagePApp.swift in Sources */,
 			);
